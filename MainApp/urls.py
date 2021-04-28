@@ -1,6 +1,7 @@
 from django.urls import path
 from .models import Topic, Entry
 from . import views
+from django.shortcuts import render, redirect
 
 app_name = "MainApp"
 
